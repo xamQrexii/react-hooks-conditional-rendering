@@ -1,0 +1,11 @@
+.News-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 46px;
+    color: #444;
+    text-transform: uppercase;
+    word-spacing: 25px;
+  }
+  

@@ -1,0 +1,36 @@
+.Header-container {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+    box-sizing: border-box;
+    background-color: darkviolet;
+    color: white;
+
+}
+
+.Header-logo {
+    font-size: 20px;
+}
+
+.Header-container-ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.Header-container-ul li {
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.Header-container-ul li:hover {
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Header-li-active {
+    color:#444;
+}
